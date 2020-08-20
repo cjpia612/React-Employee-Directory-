@@ -16,7 +16,7 @@ function EmployeeCard(props) {
             <strong>Email:</strong> {props.occupation}
           </li>
           <li>
-            <strong>Gender:</strong> {props.location}
+            <strong>Gender:</strong> {props.gender}
           </li>
         </ul>
       </div>
@@ -25,4 +25,4 @@ function EmployeeCard(props) {
   );
 }
 
-export default FriendCard;
+export default EmployeeCard;
